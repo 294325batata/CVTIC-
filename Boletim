@@ -1,0 +1,36 @@
+#include<stdio.h>
+//#include<iostream>
+//using namespace std;
+#include<string.h>
+int main (){
+	
+	float nota1,nota2,nota3,nota4,media;
+	char nome[10],sim,nao;
+	
+	printf("Insira o Nome: \n");
+	scanf("%s",&nome);
+	printf("Insira As Notas \n");
+	scanf("%f%f%f%f",&nota1,&nota2,&nota3,&nota4);	
+	printf("As Notas Estao Certas? ");
+	scanf("%c",&sim);
+	printf("S para SIM e N para NAO: \n");
+	scanf("%c",&sim);
+	scanf("%c",&nao);
+	if(strcmp (sim,nao)==0){
+	media=(nota1+nota2+nota3+nota4)/4;
+		if (media>7){
+			printf("Aluno Aprovado");
+		
+		}
+	//}
+		
+//	scanf("%f",&nota2);	
+//	printf("A Primeira Nota Foi:%f ",nota2);
+//	scanf("%f",&nota3);	
+//	printf("A Primeira Nota Foi:%f ",nota3);
+//	scanf("%f",&nota4);	
+//	printf("A Primeira Nota Foi:%f ",nota4);
+	
+	
+	
+}
